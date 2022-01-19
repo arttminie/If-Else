@@ -26,19 +26,15 @@ if(janeiro == true || dezembro == true){
 
 //Exercício Bônus
 
-let r = true
+let pessoa = "Roberta"
 
-if(r == true){
-   console.log("Seu nome começa com r")
-}else{
-   console.log("Seu nome não começa com r")
+if (pessoa.substring(0,1) === "R") {
+  console.log(`${pessoa}, seu nome começa com a letra R`)
 }
 
-let carvalho = true
-let e = false
+let nome = "Estela"
+let sobreNome = "Carvalho"
 
-if(carvalho == true || e == false){
-    console.log("Apenas uma condição é verdadeira")
-}else{
-    console.log()
-}
+ if (sobreNome.length > 6 || nome.substring(0,1) === "E") {
+     console.log(`${nome}, seu sobrenome tem mais de 6 letras ou seu nome começa com a letra E`)
+ }
